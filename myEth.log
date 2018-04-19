@@ -1,0 +1,23 @@
+WARN [04-19|19:12:50] No etherbase set and no accounts found as default 
+INFO [04-19|19:12:50] Starting peer-to-peer node               instance=Geth/v1.7.3-stable-4bb3c89d/linux-amd64/go1.9
+INFO [04-19|19:12:50] Allocated cache and file handles         database=/tmp/datadir-eth/geth/chaindata cache=128 handles=1024
+WARN [04-19|19:12:50] Upgrading database to use lookup entries 
+INFO [04-19|19:12:50] Initialised chain configuration          config="{ChainID: 33 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [04-19|19:12:50] Disk storage enabled for ethash caches   dir=/tmp/datadir-eth/geth/ethash count=3
+INFO [04-19|19:12:50] Disk storage enabled for ethash DAGs     dir=/home/diego/.ethash          count=2
+INFO [04-19|19:12:50] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [04-19|19:12:50] Database deduplication successful        deduped=0
+INFO [04-19|19:12:50] Loaded most recent local header          number=0 hash=5704d0…9bc5b0 td=256
+INFO [04-19|19:12:50] Loaded most recent local full block      number=0 hash=5704d0…9bc5b0 td=256
+INFO [04-19|19:12:50] Loaded most recent local fast block      number=0 hash=5704d0…9bc5b0 td=256
+INFO [04-19|19:12:50] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [04-19|19:12:50] Starting P2P networking 
+INFO [04-19|19:12:52] UDP listener up                          self=enode://5780a20b683866fa78f4c4d1104bb724e4c3ccf3f32ee2ad6921730c7f5b6cc3e56c23cceea102ddd31df5aaa7945c64da29c85dff177d841599f3cfeb0ddef0@[::]:30303
+INFO [04-19|19:12:52] RLPx listener up                         self=enode://5780a20b683866fa78f4c4d1104bb724e4c3ccf3f32ee2ad6921730c7f5b6cc3e56c23cceea102ddd31df5aaa7945c64da29c85dff177d841599f3cfeb0ddef0@[::]:30303
+INFO [04-19|19:12:52] IPC endpoint opened: /tmp/datadir-eth/geth.ipc 
+INFO [04-19|19:17:31] IPC endpoint closed: /tmp/datadir-eth/geth.ipc 
+INFO [04-19|19:17:31] Blockchain manager stopped 
+INFO [04-19|19:17:31] Stopping Ethereum protocol 
+INFO [04-19|19:17:31] Ethereum protocol stopped 
+INFO [04-19|19:17:31] Transaction pool stopped 
+INFO [04-19|19:17:31] Database closed                          database=/tmp/datadir-eth/geth/chaindata
